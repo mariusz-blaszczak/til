@@ -19,3 +19,8 @@ And in another terminal tab:
 ```bash
 adb reverse tcp:8081 tcp:8081
 ```
+
+## Troubleshooting 
+
+### Getting error while `react-native start`
+Helped restarting the computer.

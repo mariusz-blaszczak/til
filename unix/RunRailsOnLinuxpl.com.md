@@ -61,7 +61,7 @@ gem 'capistrano-rvm'
 
 /home/mariusz/Projects/Ruby/test_linuxpl/config/deploy/production.rb web_server_port rvm_custom_path rvm_ruby_version
 /home/mariusz/Projects/Ruby/test_linuxpl/config/deploy.rb application repo_url deploy_to assets_roles keep_releases default_shell after
-
+ga 
 cap production deploy
 
 

@@ -15,6 +15,7 @@ git add . && git commit -m "init"
 git remote add origin git@github.com:blaszczakphoto/linuxpl_test_rails.git
 git push -u origin master
 
+# On Linuxpl SSH
 rvm user rubies;
 rvm user all;
 
@@ -31,13 +32,13 @@ rvm gemdir
 cd /usr/home/mario199/domains/rails.mario199.usermd.net
 git pull HTTPURL
 # gem install bundler
-gem install bundler -v '< 1.12' 
-bundle install
+`gem install bundler -v '< 1.12' `
+`bundle install`
 
-STWORZYĆ postgresql DB w panelu admina
-vim /home/mario199/.bashrc
-add on the end of the file:
-export APP_NAME_DATABASE_FILE=CHANGE_PASSWORD
+# STWORZYĆ postgresql DB w panelu admina
+`vim /home/mario199/.bashrc`
+above: `[ -z "$PS1" ] && return`
+`export APP_NAME_DATABASE_FILE=CHANGE_PASSWORD`
 
 rake db:migrate RAILS_ENV="production" 
 

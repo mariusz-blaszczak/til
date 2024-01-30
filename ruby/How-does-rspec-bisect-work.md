@@ -1,4 +1,5 @@
 WIP
+based on /Users/mariusz/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/rspec-core-3.12.1/lib/rspec/core/bisect/example_minimizer.rb
 There are following variables:
 all_example_ids - whole suite tests
 failed_example_ids - ???

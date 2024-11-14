@@ -1,0 +1,1 @@
+I added logging to gem code in the app container and run sidekiq job. Nothing was logged and I spent a lot of time debugging it. It turned out that I need to change gem in sidekiq containers. It would be cool to put dependencies inside of the volume so this not like that anymore.
